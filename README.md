@@ -124,6 +124,37 @@ console.log(splits2);
 
 ### push
 
+### indexOf
+
+・引数に与えられた内容と同じ内容を持つ配列要素の内、最初のものの添字をreturn
+・存在しない場合は、-1をreturn
+・引数は、(searchElement(検索する配列要素))
+
+構文
+```
+arr.indexOf(searchElement)
+```
+
+```javascript
+
+const array = [1, 2, 3, 1];
+const result = array.indexOf(1);
+console.log(result);     // => 0
+
+// groupに自分がいるか検索
+  function belongToGroup(groupNum, myNum) {
+    const groupMembers = groupMembersArray[groupNum - 1];
+    const result = groupMembers.indexOf(myNum);
+    if (result === -1) {
+      return false;
+    } else {
+      return true;
+    }
+  }
+});
+
+```
+
 ### 型キャスト関数
 
 ### Number()
