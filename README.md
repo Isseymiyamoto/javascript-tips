@@ -6,7 +6,7 @@ write down some javascript tips.. (especially for paiza)
 
 ### 配列に対して用いる関数
 
-#### map
+### map
 
 ・ 与えられた関数を配列の順番通りに、配列のすべての要素に対して呼び出し、その結果からなる新しい配列を生成する関数
 ・ 新しい配列を作成するため、返された配列を使わない場合、map を使うのはアンチパターン
@@ -41,7 +41,7 @@ console.log(newArray);
 
 ```
 
-#### forEach
+### forEach
 
 ・与えられたコールバック関数を、配列の各要素に対して一度ずつ実行する
 ・for文を配列に対して用いているのと同じ？ただ途中でforEachループを完全に中断することはできない。例外処理は可能
@@ -62,10 +62,10 @@ console.log(copyItems);
 ```
 
 
-#### array
+### array
 
 
-#### join
+### join
 
 ・ 配列.join(引数)  
 ・ 配列(または配列風オブジェクト)の全要素を順に連結した文字列を新たに作成してreturnする  
@@ -94,7 +94,7 @@ console.log(elements.join('-'));
 
 
 
-#### split
+### split
 
 ・String を指定した区切り文字列で分割することにより、文字列の配列に分割する
 ・引数には、(separetor(オプショナル型で、分割される部分の文字列を指定する。指定された文字列はさ分割の際に削除される))を取る
@@ -117,16 +117,16 @@ console.log(splits2);
 ```
 
 
-#### splice
+### splice
 
 
 
 
-#### push
+### push
 
 ### 型キャスト関数
 
-#### Number()
-#### parseInt()
-#### String()
+### Number()
+### parseInt()
+### String()
 
