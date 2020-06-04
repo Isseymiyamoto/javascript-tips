@@ -127,6 +127,8 @@ console.log(splits2);
 ### 型キャスト関数
 
 ### Number()
+Number型に変換
+
 ### parseInt()
 ### String()
 
