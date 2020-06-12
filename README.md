@@ -66,6 +66,8 @@ console.log(copyItems);
 
 ### reduce
 
+https://qiita.com/chihiro/items/1047e40514a778c08baa
+
 ### sort
 
 
