@@ -64,6 +64,10 @@ console.log(copyItems);
 
 ### array
 
+### reduce
+
+### sort
+
 
 ### join
 
