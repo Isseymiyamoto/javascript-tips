@@ -1,5 +1,5 @@
 # javascript-tips
-write down some javascript tips.. (especially for paiza)
+some javascript tips.. (especially for paiza)
 
 
 ## デフォルト関数
