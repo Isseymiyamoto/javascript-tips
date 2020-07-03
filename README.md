@@ -169,3 +169,21 @@ Number型に変換
 ### parseInt()
 ### String()
 
+
+### Math
+
+```javascript
+四捨五入
+Math.round(<数値>)
+ex1) Math.round(123.456) // 出力：123
+ex2) Math.round(123.567) // 出力：124
+切り上げ
+Math.ceil(<数値>)
+ex1) Math.ceil(123.456) // 出力：124
+ex2) Math.ceil(123.567) // 出力：124
+切り捨て
+Math.floor(<数値>)
+ex1) Math.floor(123.456) // 出力：123
+ex2) Math.floor(123.567) // 出力：123
+
+```
