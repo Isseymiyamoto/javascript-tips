@@ -125,7 +125,32 @@ console.log(splits2);
 
 ### splice
 
+・spliceメソッドは、 既存の要素を取り除いたり、置き換えたり、新しい要素を追加したりすることで、配列の内容を変更する
 
+構文
+```
+Array.splice(startIndex, deleteCount, insertWord);
+
+startIndex: 削除したい要素のindex番号
+deleteCount: 削除したい要素から何個の要素を削除するか
+insertWord: 何個でも増やす事ができる。startIndex番号目の要素の手前に挿入される
+```
+
+```javascript
+
+let myFish = ['angel', 'clown', 'mandarin', 'sturgeon']
+let removed = myFish.splice(2, 0, 'drum')
+
+// myFish は ["angel", "clown", "drum", "mandarin", "sturgeon"] 
+// removed は [], どの要素も取り除かれていない (空配列) 
+
+let myFish = ['angel', 'clown', 'drum', 'mandarin', 'sturgeon']
+let removed = myFish.splice(3, 1)
+
+// removed は ["mandarin"]
+// myFish は ["angel", "clown", "drum", "sturgeon"]
+
+```
 
 
 ### push
