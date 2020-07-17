@@ -64,6 +64,11 @@ console.log(copyItems);
 
 ### array
 
+### apply
+
+Math.maxで配列中の最大値を取得する
+Math.max.apply(null, [1,4,8,7]); //=> 8
+
 ### reduce
 
 https://qiita.com/chihiro/items/1047e40514a778c08baa
