@@ -24,7 +24,7 @@ var new_array = arr.map(function callback(currentValue, index, array) {
 
 const numArray = [1, 2, 3, 4];
 
-const newArray = numArray.mao((currentValue, index, array) => {
+const newArray = numArray.map((currentValue, index, array) => {
     console.log(array)   // [1,2,3,4] がコールバックが呼び出される回数出力される
     
     // 2番目の要素だけ何もせずにreturn
