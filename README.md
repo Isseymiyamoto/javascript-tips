@@ -216,4 +216,12 @@ Math.floor(<数値>)
 //ex1) Math.floor(123.456) // 出力：123
 //ex2) Math.floor(123.567) // 出力：123
 
+// ルート計算
+Math.sqrt()
+ex) Math.sqrt(9) // output is 3
+
+// 引数が整数か否かをBool値でreturn
+Number.isInteger()
+ex) Number.isInteger(4) // output is true
+
 ```
