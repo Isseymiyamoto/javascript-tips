@@ -6,6 +6,39 @@ some javascript tips.. (especially for paiza)
 
 ### 配列に対して用いる関数
 
+
+### filter
+
+・与えられたcallback関数を配列の各要素に対して一度ずつ呼び出し、callback が true と評価される値を返したすべての要素からなる新しい配列を生成
+
+構文
+```
+let newArray = arr.filter(function(element, index, array){
+    // 処理内容
+});
+```
+
+重複を削除
+
+```
+var a = [1,2,3,3,2,2,5];
+
+// 重複を削除したリスト
+var b = a.filter(function (x, i, self) {
+            return self.indexOf(x) === i;
+        });
+
+// 重複のみをリスト
+var c = a.filter(function (x, i, self) {
+            return self.indexOf(x) !== self.lastIndexOf(x);
+        });
+
+// 重複を検出したものを重複しないでリスト
+var d = a.filter(function (x, i, self) {
+            return self.indexOf(x) === i && i !== self.lastIndexOf(x);
+        });
+```
+
 ### map
 
 ・ 与えられた関数を配列の順番通りに、配列のすべての要素に対して呼び出し、その結果からなる新しい配列を生成する関数
