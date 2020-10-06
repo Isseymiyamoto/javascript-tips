@@ -258,3 +258,15 @@ Number.isInteger()
 ex) Number.isInteger(4) // output is true
 
 ```
+
+### 小数点の表示
+
+toFiexd(Int)で小数点Int位まで表示
+
+```javascript
+
+let a = 100;
+console.log(a.toFixed(1));
+
+// output is 100.0
+```
