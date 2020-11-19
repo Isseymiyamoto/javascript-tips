@@ -270,3 +270,25 @@ console.log(a.toFixed(1));
 
 // output is 100.0
 ```
+
+
+### Objectの静的メソッド
+
+Object.keys(オブジェクト) → オブジェクトに含まれるkeyの配列を返す
+Object.values(オブジェクト) → オブジェクトに含まれるvalueの配列を返す
+Object.entries(オブジェクト) → オブジェクトに含まれる[[key, value], [key1, value1],,,]のような二次元配列で返す
+
+```js
+const obj = {
+    "one": 1,
+    "two": 2,
+    "three": 3
+};
+// `Object.keys`はキーの列挙した配列を返す
+console.log(Object.keys(obj)); // => ["one", "two", "three"]
+// `Object.values`は値を列挙した配列を返す
+console.log(Object.values(obj)); // => [1, 2, 3]
+// `Object.entries`は[キー, 値]の配列を返す
+console.log(Object.entries(obj)); // => [["one", 1], ["two", 2], ["three", 3]]
+
+```
